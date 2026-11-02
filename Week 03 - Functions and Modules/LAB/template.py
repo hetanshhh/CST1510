@@ -14,7 +14,7 @@ Run it:   python template.py
 # ============================================================= FUNCTIONS
 
 def status_of(percent):
-    """Return status based on the percentage."""
+    
     if percent >= 100:
         return "OVER LIMIT"
     elif percent >= 90:
